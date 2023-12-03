@@ -51,7 +51,7 @@ namespace BugCatProducto.Migrations
                     b.Property<string>("descripcion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("estado")
+                    b.Property<string>("imagen")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("nombre")

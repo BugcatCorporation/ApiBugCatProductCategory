@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BugCatProducto.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231021034524_initial")]
+    [Migration("20231203013506_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,7 +53,7 @@ namespace BugCatProducto.Migrations
                     b.Property<string>("descripcion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("estado")
+                    b.Property<string>("imagen")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("nombre")
